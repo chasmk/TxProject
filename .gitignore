@@ -17,7 +17,7 @@
 *
 !*/
 
-# C/C++ source files
+# C/C++ source files 以下都代表不忽略这些文件
 !*.c
 !*.cc
 !*.cpp
@@ -234,5 +234,9 @@ Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/**
 # Ignore USD resources copied into Binaries directory at build time
 /Engine/Binaries/ThirdParty/USD/**
 
-#忽略打包的文件
-Build/
+#忽略打包的文件，编译结果，中间文件等等
+Build
+Binaries
+DerivedDataCache
+Intermediate
+Saved
